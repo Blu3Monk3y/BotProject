@@ -1,0 +1,1354 @@
+INFO_2022-02-12 13:51:45,187 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 13:51:45,187 Added job "Tracker" to job store "default"
+INFO_2022-02-12 13:51:45,187 Scheduler started
+INFO_2022-02-12 13:51:46,094 Running job "Tracker (trigger: interval[1 day, 0:00:00], next run at: 2022-02-12 12:51:46 UTC)" (scheduled at 2022-02-12 12:51:46.093588+00:00)
+ERROR_2022-02-12 13:52:02,125 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 174, in checkPrice
+    if priceTracker[link]>price:
+TypeError: '>' not supported between instances of 'str' and 'float'
+INFO_2022-02-12 14:15:04,071 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 14:15:04,071 Added job "Tracker" to job store "default"
+INFO_2022-02-12 14:15:04,071 Scheduler started
+INFO_2022-02-12 14:15:05,002 Running job "Tracker (trigger: interval[1 day, 0:00:00], next run at: 2022-02-12 13:15:05 UTC)" (scheduled at 2022-02-12 13:15:05.000858+00:00)
+ERROR_2022-02-12 14:15:06,763 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 122, in checkPrice
+    result=jsonify(rows)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/flask/json/__init__.py", line 343, in jsonify
+    if current_app.config["JSONIFY_PRETTYPRINT_REGULAR"] or current_app.debug:
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/werkzeug/local.py", line 432, in __get__
+    obj = instance._get_current_object()
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/werkzeug/local.py", line 554, in _get_current_object
+    return self.__local()  # type: ignore
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/flask/globals.py", line 47, in _find_app
+    raise RuntimeError(_app_ctx_err_msg)
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+to interface with the current application object in some way. To solve
+this, set up an application context with app.app_context().  See the
+documentation for more information.
+INFO_2022-02-12 14:17:38,588 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 14:17:38,588 Added job "Tracker" to job store "default"
+INFO_2022-02-12 14:17:38,588 Scheduler started
+INFO_2022-02-12 14:17:39,488 Running job "Tracker (trigger: interval[1 day, 0:00:00], next run at: 2022-02-12 13:17:39 UTC)" (scheduled at 2022-02-12 13:17:39.487666+00:00)
+ERROR_2022-02-12 14:17:41,474 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 122, in checkPrice
+    result=jsonify(rows)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/flask/json/__init__.py", line 343, in jsonify
+    if current_app.config["JSONIFY_PRETTYPRINT_REGULAR"] or current_app.debug:
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/werkzeug/local.py", line 432, in __get__
+    obj = instance._get_current_object()
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/werkzeug/local.py", line 554, in _get_current_object
+    return self.__local()  # type: ignore
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/flask/globals.py", line 47, in _find_app
+    raise RuntimeError(_app_ctx_err_msg)
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+to interface with the current application object in some way. To solve
+this, set up an application context with app.app_context().  See the
+documentation for more information.
+INFO_2022-02-12 14:20:29,620 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 14:20:29,621 Added job "Tracker" to job store "default"
+INFO_2022-02-12 14:20:29,621 Scheduler started
+INFO_2022-02-12 14:20:30,499 Running job "Tracker (trigger: interval[1 day, 0:00:00], next run at: 2022-02-12 13:20:30 UTC)" (scheduled at 2022-02-12 13:20:30.498653+00:00)
+ERROR_2022-02-12 14:20:32,621 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 136, in checkPrice
+    rundriver.get(result['link'])
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 436, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: Malformed URL: URL constructor: https//www.amazon.it/Xiaomi-Pad-256GB-Cosmic-Gray/dp/B09DVJ2DQV/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1YLOGJUJ3UL19&keywords=xiaomi+pad+5&qid=1644667909&sprefix=xiaomi+pad+5%2Caps%2C96&sr=8-1 is not a valid URL.
+Stacktrace:
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5
+InvalidArgumentError@chrome://remote/content/shared/webdriver/Errors.jsm:312:5
+GeckoDriver.prototype.navigateTo@chrome://remote/content/marionette/driver.js:828:11
+
+INFO_2022-02-12 14:21:44,782 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 14:21:44,782 Added job "Tracker" to job store "default"
+INFO_2022-02-12 14:21:44,782 Scheduler started
+INFO_2022-02-12 14:21:45,702 Running job "Tracker (trigger: interval[1 day, 0:00:00], next run at: 2022-02-12 13:21:45 UTC)" (scheduled at 2022-02-12 13:21:45.701810+00:00)
+ERROR_2022-02-12 14:21:48,269 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 137, in checkPrice
+    rundriver.get(result['link'])
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 436, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: Malformed URL: URL constructor: https//www.amazon.it/Xiaomi-Pad-256GB-Cosmic-Gray/dp/B09DVJ2DQV/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1YLOGJUJ3UL19&keywords=xiaomi+pad+5&qid=1644667909&sprefix=xiaomi+pad+5%2Caps%2C96&sr=8-1 is not a valid URL.
+Stacktrace:
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5
+InvalidArgumentError@chrome://remote/content/shared/webdriver/Errors.jsm:312:5
+GeckoDriver.prototype.navigateTo@chrome://remote/content/marionette/driver.js:828:11
+
+INFO_2022-02-12 14:25:07,830 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 14:25:07,830 Added job "Tracker" to job store "default"
+INFO_2022-02-12 14:25:07,830 Scheduler started
+INFO_2022-02-12 14:25:08,756 Running job "Tracker (trigger: interval[1 day, 0:00:00], next run at: 2022-02-12 13:25:08 UTC)" (scheduled at 2022-02-12 13:25:08.754591+00:00)
+ERROR_2022-02-12 14:25:27,913 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 185, in checkPrice
+    if result['new']>price:
+TypeError: '>' not supported between instances of 'str' and 'float'
+INFO_2022-02-12 14:28:49,760 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 14:28:49,760 Added job "Tracker" to job store "default"
+INFO_2022-02-12 14:28:49,760 Scheduler started
+INFO_2022-02-12 14:28:50,683 Running job "Tracker (trigger: interval[1 day, 0:00:00], next run at: 2022-02-12 13:28:50 UTC)" (scheduled at 2022-02-12 13:28:50.682268+00:00)
+INFO_2022-02-12 14:29:08,038 Job "Tracker (trigger: interval[1 day, 0:00:00], next run at: 2022-02-13 13:28:50 UTC)" executed successfully
+INFO_2022-02-12 14:31:53,367 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 14:31:53,367 Added job "Tracker" to job store "default"
+INFO_2022-02-12 14:31:53,367 Scheduler started
+INFO_2022-02-12 14:31:54,279 Running job "Tracker (trigger: interval[1 day, 0:00:00], next run at: 2022-02-12 13:31:54 UTC)" (scheduled at 2022-02-12 13:31:54.278378+00:00)
+INFO_2022-02-12 14:32:20,083 Job "Tracker (trigger: interval[1 day, 0:00:00], next run at: 2022-02-13 13:31:54 UTC)" executed successfully
+INFO_2022-02-12 14:34:45,376 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 14:34:45,376 Added job "Tracker" to job store "default"
+INFO_2022-02-12 14:34:45,376 Scheduler started
+INFO_2022-02-12 14:34:46,292 Running job "Tracker (trigger: interval[1 day, 0:00:00], next run at: 2022-02-12 13:34:46 UTC)" (scheduled at 2022-02-12 13:34:46.290934+00:00)
+INFO_2022-02-12 14:35:02,381 Job "Tracker (trigger: interval[1 day, 0:00:00], next run at: 2022-02-13 13:34:46 UTC)" executed successfully
+INFO_2022-02-12 14:37:25,170 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 14:37:25,170 Added job "Tracker" to job store "default"
+INFO_2022-02-12 14:37:25,170 Scheduler started
+INFO_2022-02-12 14:37:26,076 Running job "Tracker (trigger: interval[1 day, 0:00:00], next run at: 2022-02-12 13:37:26 UTC)" (scheduled at 2022-02-12 13:37:26.074841+00:00)
+INFO_2022-02-12 14:37:42,805 Job "Tracker (trigger: interval[1 day, 0:00:00], next run at: 2022-02-13 13:37:26 UTC)" executed successfully
+INFO_2022-02-12 16:31:01,501 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 16:31:01,502 Added job "Tracker" to job store "default"
+INFO_2022-02-12 16:31:01,502 Scheduler started
+INFO_2022-02-12 16:31:02,415 Running job "Tracker (trigger: interval[1 day, 0:00:00], next run at: 2022-02-12 15:31:02 UTC)" (scheduled at 2022-02-12 15:31:02.414402+00:00)
+ERROR_2022-02-12 16:31:10,672 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 139, in checkPrice
+    acceptButton = rundriver.find_element(by="id", value="sp-cc-accept")
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1244, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="sp-cc-accept"]
+Stacktrace:
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5
+element.find/</<@chrome://remote/content/marionette/element.js:300:16
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 170, in checkPrice
+    acceptButton = rundriver.find_element(by="id", value="sp-cc-accept")
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1244, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="sp-cc-accept"]
+Stacktrace:
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5
+element.find/</<@chrome://remote/content/marionette/element.js:300:16
+
+INFO_2022-02-12 16:32:55,806 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 16:32:55,807 Added job "Tracker" to job store "default"
+INFO_2022-02-12 16:32:55,807 Scheduler started
+INFO_2022-02-12 16:32:56,719 Running job "Tracker (trigger: interval[1 day, 0:00:00], next run at: 2022-02-12 15:32:56 UTC)" (scheduled at 2022-02-12 15:32:56.718552+00:00)
+ERROR_2022-02-12 16:33:08,847 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 209, in checkPrice
+    rundriver.get(link)
+UnboundLocalError: local variable 'link' referenced before assignment
+INFO_2022-02-12 16:34:42,689 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 16:34:42,690 Added job "Tracker" to job store "default"
+INFO_2022-02-12 16:34:42,690 Scheduler started
+INFO_2022-02-12 16:34:43,596 Running job "Tracker (trigger: interval[1 day, 0:00:00], next run at: 2022-02-12 15:34:43 UTC)" (scheduled at 2022-02-12 15:34:43.595378+00:00)
+ERROR_2022-02-12 16:34:56,062 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 209, in checkPrice
+    rundriver.get(link)
+UnboundLocalError: local variable 'link' referenced before assignment
+INFO_2022-02-12 16:35:43,160 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 16:35:43,161 Added job "Tracker" to job store "default"
+INFO_2022-02-12 16:35:43,161 Scheduler started
+INFO_2022-02-12 16:35:44,067 Running job "Tracker (trigger: interval[1 day, 0:00:00], next run at: 2022-02-12 15:35:44 UTC)" (scheduled at 2022-02-12 15:35:44.065965+00:00)
+ERROR_2022-02-12 16:37:43,523 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 210, in checkPrice
+    getLink=rundriver.find_element(by="id",value="amzn-ss-text-link")
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1244, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: Browsing context has been discarded
+Stacktrace:
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.jsm:437:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.jsm:435:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.jsm:143:4
+GeckoDriver.prototype.findElement@chrome://remote/content/marionette/driver.js:1416:10
+despatch@chrome://remote/content/marionette/server.js:306:40
+execute@chrome://remote/content/marionette/server.js:279:16
+onPacket/<@chrome://remote/content/marionette/server.js:252:20
+onPacket@chrome://remote/content/marionette/server.js:253:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:500:20
+
+INFO_2022-02-12 16:38:03,249 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 16:38:03,249 Added job "Tracker" to job store "default"
+INFO_2022-02-12 16:38:03,250 Scheduler started
+INFO_2022-02-12 16:38:04,150 Running job "Tracker (trigger: interval[1 day, 0:00:00], next run at: 2022-02-12 15:38:04 UTC)" (scheduled at 2022-02-12 15:38:04.149025+00:00)
+INFO_2022-02-12 16:38:22,340 Job "Tracker (trigger: interval[1 day, 0:00:00], next run at: 2022-02-13 15:38:04 UTC)" executed successfully
+INFO_2022-02-12 19:01:16,259 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 19:01:16,260 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:01:16,260 Scheduler started
+INFO_2022-02-12 19:01:17,193 Running job "796449928 (trigger: date[2022-02-12 18:01:17 UTC], next run at: 2022-02-12 18:01:17 UTC)" (scheduled at 2022-02-12 18:01:17.192089+00:00)
+INFO_2022-02-12 19:01:17,194 Removed job abce794b0b6745c7914611ff6b8f437c
+ERROR_2022-02-12 19:01:17,197 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 246, in Search
+    chatId=context.chatId
+AttributeError: 'CallbackContext' object has no attribute 'chatId'
+INFO_2022-02-12 19:03:55,136 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 19:03:55,136 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:03:55,136 Scheduler started
+INFO_2022-02-12 19:03:56,078 Running job "796449928 (trigger: date[2022-02-12 18:03:56 UTC], next run at: 2022-02-12 18:03:56 UTC)" (scheduled at 2022-02-12 18:03:56.077037+00:00)
+INFO_2022-02-12 19:03:56,079 Removed job 49ae169a390249c5872261d479d1814c
+ERROR_2022-02-12 19:04:00,796 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 306, in Search
+    bot.send_message(chatId, "Vediamo cosa ho trovato!")
+UnboundLocalError: local variable 'chatId' referenced before assignment
+INFO_2022-02-12 19:05:23,414 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 19:05:23,415 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:05:23,415 Scheduler started
+INFO_2022-02-12 19:05:24,339 Running job "796449928 (trigger: date[2022-02-12 18:05:24 UTC], next run at: 2022-02-12 18:05:24 UTC)" (scheduled at 2022-02-12 18:05:24.338750+00:00)
+INFO_2022-02-12 19:05:24,340 Removed job eea4da61cef942c5b0890c634dcd7a36
+ERROR_2022-02-12 19:05:28,990 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 307, in Search
+    bot.send_message(chatId, "Vediamo cosa ho trovato!")
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/telebot/__init__.py", line 972, in send_message
+    apihelper.send_message(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
+INFO_2022-02-12 19:07:14,913 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 19:07:14,913 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:07:14,913 Scheduler started
+INFO_2022-02-12 19:07:15,839 Running job "796449928 (trigger: date[2022-02-12 18:07:15 UTC], next run at: 2022-02-12 18:07:15 UTC)" (scheduled at 2022-02-12 18:07:15.838064+00:00)
+INFO_2022-02-12 19:07:15,839 Removed job e5205a5bf91d420793827c0b9ec97b52
+ERROR_2022-02-12 19:07:19,440 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 309, in Search
+    bot.send_message(chatId, "Vediamo cosa ho trovato!")
+UnboundLocalError: local variable 'chatId' referenced before assignment
+INFO_2022-02-12 19:08:16,121 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 19:08:16,121 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:08:16,121 Scheduler started
+INFO_2022-02-12 19:08:17,070 Running job "796449928 (trigger: date[2022-02-12 18:08:17 UTC], next run at: 2022-02-12 18:08:17 UTC)" (scheduled at 2022-02-12 18:08:17.069266+00:00)
+INFO_2022-02-12 19:08:17,071 Removed job 82c4521eeec9413bb2413488a22d8589
+ERROR_2022-02-12 19:08:20,981 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 308, in Search
+    bot.send_message(chatId, "Vediamo cosa ho trovato!")
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/telebot/__init__.py", line 972, in send_message
+    apihelper.send_message(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
+INFO_2022-02-12 19:09:16,030 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 19:09:16,031 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:09:16,031 Scheduler started
+INFO_2022-02-12 19:09:16,975 Running job "796449928 (trigger: date[2022-02-12 18:09:16 UTC], next run at: 2022-02-12 18:09:16 UTC)" (scheduled at 2022-02-12 18:09:16.974099+00:00)
+INFO_2022-02-12 19:09:16,976 Removed job 7f7c876a6f234d80b2175a94cbe1d50f
+WARNING_2022-02-12 19:10:00,241 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe33857a820>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/32a1e35b-dc9f-4e14-a128-540b47786b75/element/147a1d17-bff6-4c2d-ac63-010083173f96/element
+WARNING_2022-02-12 19:10:00,243 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe3385ceca0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/32a1e35b-dc9f-4e14-a128-540b47786b75/element/147a1d17-bff6-4c2d-ac63-010083173f96/element
+WARNING_2022-02-12 19:10:00,244 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe3385ce940>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/32a1e35b-dc9f-4e14-a128-540b47786b75/element/147a1d17-bff6-4c2d-ac63-010083173f96/element
+WARNING_2022-02-12 19:10:30,273 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe3385cef70>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/32a1e35b-dc9f-4e14-a128-540b47786b75/element/4b6a5e2f-5a18-48b0-b738-851909a8eefa/element
+WARNING_2022-02-12 19:10:30,274 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe3385ce760>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/32a1e35b-dc9f-4e14-a128-540b47786b75/element/4b6a5e2f-5a18-48b0-b738-851909a8eefa/element
+WARNING_2022-02-12 19:10:30,276 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe33852a100>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/32a1e35b-dc9f-4e14-a128-540b47786b75/element/4b6a5e2f-5a18-48b0-b738-851909a8eefa/element
+INFO_2022-02-12 19:10:56,418 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 19:10:56,419 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:10:56,419 Scheduler started
+INFO_2022-02-12 19:10:57,334 Running job "796449928 (trigger: date[2022-02-12 18:10:57 UTC], next run at: 2022-02-12 18:10:57 UTC)" (scheduled at 2022-02-12 18:10:57.333407+00:00)
+INFO_2022-02-12 19:10:57,335 Removed job 43b13318ea5a48abb2f880af91df25a7
+INFO_2022-02-12 19:13:22,864 Added job "796449928" to job store "default"
+ERROR_2022-02-12 19:13:23,865 Error submitting job "796449928 (trigger: date[2022-02-12 18:13:23 UTC], next run at: 2022-02-12 18:13:23 UTC)" to executor "default"
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/schedulers/base.py", line 974, in _process_jobs
+    executor.submit_job(job, run_times)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 71, in submit_job
+    self._do_submit_job(job, run_times)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/pool.py", line 22, in _do_submit_job
+    f = self._pool.submit(run_job, job, job._jobstore_alias, run_times, self._logger.name)
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 181, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+INFO_2022-02-12 19:13:23,870 Removed job a11d6866f93044a6812801dcea4cd5b4
+INFO_2022-02-12 19:13:37,410 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 19:13:37,410 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:13:37,410 Scheduler started
+INFO_2022-02-12 19:13:38,360 Running job "796449928 (trigger: date[2022-02-12 18:13:38 UTC], next run at: 2022-02-12 18:13:38 UTC)" (scheduled at 2022-02-12 18:13:38.359598+00:00)
+INFO_2022-02-12 19:13:38,361 Removed job 20629dc98d94463193a72ac0957acfec
+WARNING_2022-02-12 19:14:28,901 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0edc102eb0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0bc50986-2639-4dd7-8752-1f7a781c98cd/element/f1f37c44-9a69-4f17-999f-2371d11ff3a8/element
+WARNING_2022-02-12 19:14:28,903 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0edc133820>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0bc50986-2639-4dd7-8752-1f7a781c98cd/element/f1f37c44-9a69-4f17-999f-2371d11ff3a8/element
+WARNING_2022-02-12 19:14:28,905 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0edc133880>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0bc50986-2639-4dd7-8752-1f7a781c98cd/element/f1f37c44-9a69-4f17-999f-2371d11ff3a8/element
+WARNING_2022-02-12 19:14:30,912 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0edc0f7280>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0bc50986-2639-4dd7-8752-1f7a781c98cd/element/142b747f-bb60-466b-8a76-21ff56171756/element
+WARNING_2022-02-12 19:14:30,913 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0edc1510a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0bc50986-2639-4dd7-8752-1f7a781c98cd/element/142b747f-bb60-466b-8a76-21ff56171756/element
+WARNING_2022-02-12 19:14:30,915 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0edc13b790>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0bc50986-2639-4dd7-8752-1f7a781c98cd/element/142b747f-bb60-466b-8a76-21ff56171756/element
+WARNING_2022-02-12 19:14:32,921 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0edc144880>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0bc50986-2639-4dd7-8752-1f7a781c98cd/element/ce20eb10-ee78-4f4b-8b27-7c53e0956d51/element
+WARNING_2022-02-12 19:14:32,922 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0edc144850>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0bc50986-2639-4dd7-8752-1f7a781c98cd/element/ce20eb10-ee78-4f4b-8b27-7c53e0956d51/element
+WARNING_2022-02-12 19:14:32,924 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0edc144c40>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0bc50986-2639-4dd7-8752-1f7a781c98cd/element/ce20eb10-ee78-4f4b-8b27-7c53e0956d51/element
+INFO_2022-02-12 19:15:11,887 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 19:15:11,887 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:15:11,887 Scheduler started
+INFO_2022-02-12 19:15:12,816 Running job "796449928 (trigger: date[2022-02-12 18:15:12 UTC], next run at: 2022-02-12 18:15:12 UTC)" (scheduled at 2022-02-12 18:15:12.815661+00:00)
+INFO_2022-02-12 19:15:12,817 Removed job ef8bfb8e895a42f7a257e99009aa014e
+ERROR_2022-02-12 19:19:22,391 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 370, in Search
+    rundriver2.get(link.get_attribute('href'))
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 436, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 422, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 421, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 443, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+INFO_2022-02-12 19:19:28,113 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 19:19:28,113 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:19:28,113 Scheduler started
+INFO_2022-02-12 19:19:29,026 Running job "796449928 (trigger: date[2022-02-12 18:19:29 UTC], next run at: 2022-02-12 18:19:29 UTC)" (scheduled at 2022-02-12 18:19:29.024831+00:00)
+INFO_2022-02-12 19:19:29,026 Removed job 2e8f7639e455404e87d43eb80225cae5
+ERROR_2022-02-12 19:20:36,903 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 370, in Search
+    rundriver2.get(link.get_attribute('href'))
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 436, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 422, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 421, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 443, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+INFO_2022-02-12 19:20:52,043 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 19:20:52,044 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:20:52,044 Scheduler started
+INFO_2022-02-12 19:20:52,979 Running job "796449928 (trigger: date[2022-02-12 18:20:52 UTC], next run at: 2022-02-12 18:20:52 UTC)" (scheduled at 2022-02-12 18:20:52.978540+00:00)
+INFO_2022-02-12 19:20:52,980 Removed job caff86236b284dcbb5ca0b161a3289de
+ERROR_2022-02-12 19:23:03,644 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 370, in Search
+    rundriver2.get(link.get_attribute('href'))
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 436, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 422, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 421, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 443, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+INFO_2022-02-12 19:30:23,253 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 19:30:23,254 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:30:23,254 Scheduler started
+INFO_2022-02-12 19:30:24,187 Running job "796449928 (trigger: date[2022-02-12 18:30:24 UTC], next run at: 2022-02-12 18:30:24 UTC)" (scheduled at 2022-02-12 18:30:24.186169+00:00)
+INFO_2022-02-12 19:30:24,188 Removed job 333c0b251c51488f8a6605b35ee4f099
+INFO_2022-02-12 19:31:00,728 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:31:01,729 Running job "796449928 (trigger: date[2022-02-12 18:31:01 UTC], next run at: 2022-02-12 18:31:01 UTC)" (scheduled at 2022-02-12 18:31:01.728340+00:00)
+INFO_2022-02-12 19:31:01,731 Removed job c71c57f16f4f4f0389483673130e90b8
+INFO_2022-02-12 19:31:07,068 coockies already accepted
+INFO_2022-02-12 19:31:08,046 Job "796449928 (trigger: date[2022-02-12 18:31:01 UTC], next run at: 2022-02-12 18:31:01 UTC)" executed successfully
+INFO_2022-02-12 19:31:35,096 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:31:36,094 Removed job 37e9d608a41c4dd4b977bd5556430ddf
+INFO_2022-02-12 19:31:36,095 Running job "796449928 (trigger: date[2022-02-12 18:31:36 UTC], next run at: 2022-02-12 18:31:36 UTC)" (scheduled at 2022-02-12 18:31:36.094516+00:00)
+ERROR_2022-02-12 19:31:42,492 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 321, in Search
+    acceptButton = rundriver.find_element(by="id", value="sp-cc-accept")
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1244, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Failed to decode response from marionette
+
+INFO_2022-02-12 19:32:43,609 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 19:32:43,609 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:32:43,609 Scheduler started
+INFO_2022-02-12 19:32:44,532 Running job "796449928 (trigger: date[2022-02-12 18:32:44 UTC], next run at: 2022-02-12 18:32:44 UTC)" (scheduled at 2022-02-12 18:32:44.531467+00:00)
+INFO_2022-02-12 19:32:44,534 Removed job d5bfd537e2c24941888b23bd94bb7898
+INFO_2022-02-12 19:34:42,143 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 19:34:42,143 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:34:42,143 Scheduler started
+INFO_2022-02-12 19:34:43,070 Running job "796449928 (trigger: date[2022-02-12 18:34:43 UTC], next run at: 2022-02-12 18:34:43 UTC)" (scheduled at 2022-02-12 18:34:43.069072+00:00)
+INFO_2022-02-12 19:34:43,070 Removed job 504e5de438454d399cbac7e83d01a471
+INFO_2022-02-12 19:35:23,251 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 19:35:23,251 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:35:23,252 Scheduler started
+INFO_2022-02-12 19:35:24,171 Running job "796449928 (trigger: date[2022-02-12 18:35:24 UTC], next run at: 2022-02-12 18:35:24 UTC)" (scheduled at 2022-02-12 18:35:24.170519+00:00)
+INFO_2022-02-12 19:35:24,171 Removed job 0c341a8698fe4d59b20929618eef1537
+ERROR_2022-02-12 19:36:43,795 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 511, in Search
+    priceDiv = rundriver2.find_element(by="id", value="corePrice_feature_div")
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1244, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 422, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 421, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 443, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+INFO_2022-02-12 19:37:18,610 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 19:37:18,610 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:37:18,611 Scheduler started
+INFO_2022-02-12 19:37:19,542 Running job "796449928 (trigger: date[2022-02-12 18:37:19 UTC], next run at: 2022-02-12 18:37:19 UTC)" (scheduled at 2022-02-12 18:37:19.540636+00:00)
+INFO_2022-02-12 19:37:19,542 Removed job f21444c0f45d45fc893350c56509c475
+ERROR_2022-02-12 19:37:45,976 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 504, in Search
+    acceptButton = rundriver2.find_element(by="id", value="sp-cc-accept")
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1244, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 422, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 421, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 443, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+INFO_2022-02-12 19:38:20,568 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 19:38:20,568 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:38:20,568 Scheduler started
+INFO_2022-02-12 19:38:21,496 Running job "796449928 (trigger: date[2022-02-12 18:38:21 UTC], next run at: 2022-02-12 18:38:21 UTC)" (scheduled at 2022-02-12 18:38:21.495015+00:00)
+INFO_2022-02-12 19:38:21,497 Removed job a0f54259b4b24f3496dbddd6df07ec2f
+WARNING_2022-02-12 19:39:50,718 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f460c2da070>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/6f8f49fc-106e-4190-b6e4-c8f27b3d17cf/element
+WARNING_2022-02-12 19:39:50,722 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f460c286460>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/6f8f49fc-106e-4190-b6e4-c8f27b3d17cf/element
+WARNING_2022-02-12 19:39:50,724 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f460c2da790>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/6f8f49fc-106e-4190-b6e4-c8f27b3d17cf/element
+WARNING_2022-02-12 19:39:50,728 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f460c2da130>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0dac9201-4b27-46a4-a5e6-979118f0ddaa/element/fe41daed-76b8-4b23-84db-004b19b274bc/element
+WARNING_2022-02-12 19:39:50,730 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f460c2ce670>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0dac9201-4b27-46a4-a5e6-979118f0ddaa/element/fe41daed-76b8-4b23-84db-004b19b274bc/element
+WARNING_2022-02-12 19:39:50,732 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f460c2d8af0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0dac9201-4b27-46a4-a5e6-979118f0ddaa/element/fe41daed-76b8-4b23-84db-004b19b274bc/element
+ERROR_2022-02-12 19:39:50,740 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 340, in Search
+    while rundriver.find_element(by="class name", value=f's-pagination-next'):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1244, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: .s-pagination-next
+Stacktrace:
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5
+element.find/</<@chrome://remote/content/marionette/element.js:300:16
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f460c2d81f0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 492, in Search
+    link = element.find_element(by="class name", value="a-link-normal")
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 735, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 710, in _execute
+    return self._parent.execute(command, params)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 422, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 421, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 443, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 813, in urlopen
+    return self.urlopen(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 813, in urlopen
+    return self.urlopen(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 813, in urlopen
+    return self.urlopen(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=34797): Max retries exceeded with url: /session/0dac9201-4b27-46a4-a5e6-979118f0ddaa/element/fe41daed-76b8-4b23-84db-004b19b274bc/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f460c2d81f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+INFO_2022-02-12 19:40:44,372 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 19:40:44,372 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:40:44,372 Scheduler started
+INFO_2022-02-12 19:40:45,304 Running job "796449928 (trigger: date[2022-02-12 18:40:45 UTC], next run at: 2022-02-12 18:40:45 UTC)" (scheduled at 2022-02-12 18:40:45.303206+00:00)
+INFO_2022-02-12 19:40:45,304 Removed job fdada86d123c4610adebc5b700803dbb
+ERROR_2022-02-12 19:41:51,096 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 494, in Search
+    rundriver2.get(link.get_attribute('href'))
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 436, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 422, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 421, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 443, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+INFO_2022-02-12 19:44:58,653 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 19:44:58,654 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:44:58,654 Scheduler started
+INFO_2022-02-12 19:44:59,559 Running job "796449928 (trigger: interval[1 day, 0:00:00], next run at: 2022-02-12 18:44:59 UTC)" (scheduled at 2022-02-12 18:44:59.558524+00:00)
+INFO_2022-02-12 19:45:41,133 Removed job dbffc068af01448baef00a4f2d04d7a9
+ERROR_2022-02-12 19:46:00,690 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 494, in Search
+    rundriver2.get(link.get_attribute('href'))
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 436, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 422, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 421, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 443, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+INFO_2022-02-12 19:56:31,017 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 19:56:31,017 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:56:31,017 Scheduler started
+INFO_2022-02-12 19:56:31,951 Running job "796449928 (trigger: date[2022-02-12 18:56:31 UTC], next run at: 2022-02-12 18:56:31 UTC)" (scheduled at 2022-02-12 18:56:31.950106+00:00)
+INFO_2022-02-12 19:56:31,952 Removed job 199a446a959e44e88058272f74ceb9ba
+INFO_2022-02-12 19:57:25,201 Job "796449928 (trigger: date[2022-02-12 18:56:31 UTC], next run at: 2022-02-12 18:56:31 UTC)" executed successfully
+INFO_2022-02-12 19:57:41,668 Added job "796449928" to job store "default"
+INFO_2022-02-12 19:57:42,668 Removed job 015c26c581a048f79b2fdc93a65b5c18
+INFO_2022-02-12 19:57:42,668 Running job "796449928 (trigger: date[2022-02-12 18:57:42 UTC], next run at: 2022-02-12 18:57:42 UTC)" (scheduled at 2022-02-12 18:57:42.667761+00:00)
+INFO_2022-02-12 19:58:43,790 Job "796449928 (trigger: date[2022-02-12 18:57:42 UTC], next run at: 2022-02-12 18:57:42 UTC)" executed successfully
+INFO_2022-02-12 20:01:59,364 Added job "796449928" to job store "default"
+INFO_2022-02-12 20:02:00,364 Removed job 6a44129b92ab4b6491427248ab5e783b
+INFO_2022-02-12 20:02:00,364 Running job "796449928 (trigger: date[2022-02-12 19:02:00 UTC], next run at: 2022-02-12 19:02:00 UTC)" (scheduled at 2022-02-12 19:02:00.363458+00:00)
+WARNING_2022-02-12 20:04:30,076 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efee49a2670>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/f8213332-7dc3-4dd3-820e-4055c66efbab/element/b3ab239c-bf75-462b-b245-419b31c33f13/element
+WARNING_2022-02-12 20:04:30,078 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efee49c83a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/f8213332-7dc3-4dd3-820e-4055c66efbab/element/b3ab239c-bf75-462b-b245-419b31c33f13/element
+WARNING_2022-02-12 20:04:30,079 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efee49c8220>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/f8213332-7dc3-4dd3-820e-4055c66efbab/element/b3ab239c-bf75-462b-b245-419b31c33f13/element
+ERROR_2022-02-12 20:04:30,085 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7efee49eba30>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 368, in Search
+    link = element.find_element(by="class name", value="a-link-normal")
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 735, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 710, in _execute
+    return self._parent.execute(command, params)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 422, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 421, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 443, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 813, in urlopen
+    return self.urlopen(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 813, in urlopen
+    return self.urlopen(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 813, in urlopen
+    return self.urlopen(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=43439): Max retries exceeded with url: /session/f8213332-7dc3-4dd3-820e-4055c66efbab/element/b3ab239c-bf75-462b-b245-419b31c33f13/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efee49eba30>: Failed to establish a new connection: [Errno 111] Connection refused'))
+INFO_2022-02-12 20:04:46,357 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 20:04:46,357 Added job "796449928" to job store "default"
+INFO_2022-02-12 20:04:46,357 Scheduler started
+INFO_2022-02-12 20:04:47,277 Running job "796449928 (trigger: date[2022-02-12 19:04:47 UTC], next run at: 2022-02-12 19:04:47 UTC)" (scheduled at 2022-02-12 19:04:47.275807+00:00)
+INFO_2022-02-12 20:04:47,278 Removed job 8dc043f59a2b4c959a2e0e7cc109315a
+ERROR_2022-02-12 20:05:46,606 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 513, in Search
+    print(priceText.get_attribute("text"))
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 155, in get_attribute
+    attribute_value = self.parent.execute_script(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 878, in execute_script
+    return self.execute(command, {
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 422, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 421, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 443, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+INFO_2022-02-12 20:08:03,806 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 20:08:03,807 Added job "796449928" to job store "default"
+INFO_2022-02-12 20:08:03,807 Scheduler started
+INFO_2022-02-12 20:08:04,711 Running job "796449928 (trigger: date[2022-02-12 19:08:04 UTC], next run at: 2022-02-12 19:08:04 UTC)" (scheduled at 2022-02-12 19:08:04.710227+00:00)
+INFO_2022-02-12 20:08:04,712 Removed job 9453b5f296324268b38e8528e4f8e376
+INFO_2022-02-12 20:09:23,989 Added job "796449928https//amzn.to/3HLb4uI" to job store "default"
+INFO_2022-02-12 20:09:24,983 Running job "796449928https//amzn.to/3HLb4uI (trigger: interval[1 day, 0:00:00], next run at: 2022-02-12 19:09:24 UTC)" (scheduled at 2022-02-12 19:09:24.982516+00:00)
+ERROR_2022-02-12 20:09:43,678 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 139, in checkPrice
+    acceptButton = rundriver.find_element(by="id", value="sp-cc-accept")
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1244, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="sp-cc-accept"]
+Stacktrace:
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5
+element.find/</<@chrome://remote/content/marionette/element.js:300:16
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 170, in checkPrice
+    acceptButton = rundriver.find_element(by="id", value="sp-cc-accept")
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1244, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="sp-cc-accept"]
+Stacktrace:
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5
+element.find/</<@chrome://remote/content/marionette/element.js:300:16
+
+ERROR_2022-02-12 20:16:21,213 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 370, in Search
+    rundriver2.get(link.get_attribute('href'))
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 436, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 422, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 421, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 443, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+INFO_2022-02-12 20:17:54,111 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 20:17:54,111 Added job "796449928" to job store "default"
+INFO_2022-02-12 20:17:54,111 Scheduler started
+INFO_2022-02-12 20:17:55,046 Running job "796449928 (trigger: date[2022-02-12 19:17:55 UTC], next run at: 2022-02-12 19:17:55 UTC)" (scheduled at 2022-02-12 19:17:55.044688+00:00)
+INFO_2022-02-12 20:17:55,046 Removed job cccc6a31bd214f4fbff86053f3ccad9b
+INFO_2022-02-12 20:19:01,992 Added job "796449928" to job store "default"
+INFO_2022-02-12 20:19:02,992 Running job "796449928 (trigger: date[2022-02-12 19:19:02 UTC], next run at: 2022-02-12 19:19:02 UTC)" (scheduled at 2022-02-12 19:19:02.990494+00:00)
+INFO_2022-02-12 20:19:02,992 Removed job b5086e8a4b444d64acaf49cdfc68d5dd
+INFO_2022-02-12 20:20:14,625 Job "796449928 (trigger: date[2022-02-12 19:17:55 UTC], next run at: 2022-02-12 19:17:55 UTC)" executed successfully
+INFO_2022-02-12 20:21:54,630 Added job "796449928" to job store "default"
+INFO_2022-02-12 20:21:55,630 Removed job f4685fd2e92443eaa825c206f4b2de62
+INFO_2022-02-12 20:21:55,630 Running job "796449928 (trigger: date[2022-02-12 19:21:55 UTC], next run at: 2022-02-12 19:21:55 UTC)" (scheduled at 2022-02-12 19:21:55.629613+00:00)
+INFO_2022-02-12 20:24:09,711 Job "796449928 (trigger: date[2022-02-12 19:21:55 UTC], next run at: 2022-02-12 19:21:55 UTC)" executed successfully
+ERROR_2022-02-12 20:27:53,573 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 494, in Search
+    rundriver2.get(link.get_attribute('href'))
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 436, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 422, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 421, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 443, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+INFO_2022-02-12 21:03:43,810 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-12 21:03:43,810 Added job "94384071" to job store "default"
+INFO_2022-02-12 21:03:43,810 Scheduler started
+INFO_2022-02-12 21:03:44,711 Running job "94384071 (trigger: date[2022-02-12 20:03:44 UTC], next run at: 2022-02-12 20:03:44 UTC)" (scheduled at 2022-02-12 20:03:44.711317+00:00)
+INFO_2022-02-12 21:03:44,712 Removed job b2e56ab1390f4135882d706b6e3d4187
+INFO_2022-02-12 21:03:50,633 coockies already accepted
+INFO_2022-02-12 21:03:51,635 Job "94384071 (trigger: date[2022-02-12 20:03:44 UTC], next run at: 2022-02-12 20:03:44 UTC)" executed successfully
+INFO_2022-02-12 21:04:34,417 Added job "94384071" to job store "default"
+INFO_2022-02-12 21:04:35,417 Removed job 98fabe13961d485b93b186570806fbb6
+INFO_2022-02-12 21:04:35,417 Running job "94384071 (trigger: date[2022-02-12 20:04:35 UTC], next run at: 2022-02-12 20:04:35 UTC)" (scheduled at 2022-02-12 20:04:35.417145+00:00)
+INFO_2022-02-12 21:04:39,752 coockies already accepted
+INFO_2022-02-12 21:04:40,628 Job "94384071 (trigger: date[2022-02-12 20:04:35 UTC], next run at: 2022-02-12 20:04:35 UTC)" executed successfully
+INFO_2022-02-21 12:15:31,364 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO_2022-02-21 12:15:31,364 Added job "-1001648226610" to job store "default"
+INFO_2022-02-21 12:15:31,365 Scheduler started
+INFO_2022-02-21 12:15:32,303 Running job "-1001648226610 (trigger: date[2022-02-21 11:15:32 UTC], next run at: 2022-02-21 11:15:32 UTC)" (scheduled at 2022-02-21 11:15:32.301983+00:00)
+INFO_2022-02-21 12:15:32,303 Removed job 56a8158546944801b4a252e5982d4cef
+WARNING_2022-02-21 12:18:38,564 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9c96e6f0d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/97be523f-d4ba-4444-b8ea-795fd0c5e031/element/ba2a3e7f-36a0-47dc-9f95-0532a61d178a/element
+WARNING_2022-02-21 12:18:38,565 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9c96e66790>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/97be523f-d4ba-4444-b8ea-795fd0c5e031/element/ba2a3e7f-36a0-47dc-9f95-0532a61d178a/element
+WARNING_2022-02-21 12:18:38,565 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9c96e66dc0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/97be523f-d4ba-4444-b8ea-795fd0c5e031/element/ba2a3e7f-36a0-47dc-9f95-0532a61d178a/element
+ERROR_2022-02-21 12:18:38,574 No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 340, in Search
+    while rundriver.find_element(by="class name", value=f's-pagination-next'):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1244, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: .s-pagination-next
+Stacktrace:
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5
+element.find/</<@chrome://remote/content/marionette/element.js:300:16
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f9c96e9fcd0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/Telegram_bot.py", line 492, in Search
+    link = element.find_element(by="class name", value="a-link-normal")
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 735, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 710, in _execute
+    return self._parent.execute(command, params)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 422, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 421, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 443, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 813, in urlopen
+    return self.urlopen(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 813, in urlopen
+    return self.urlopen(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 813, in urlopen
+    return self.urlopen(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/blu3monk3y/PycharmProjects/BotProject/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=40087): Max retries exceeded with url: /session/97be523f-d4ba-4444-b8ea-795fd0c5e031/element/ba2a3e7f-36a0-47dc-9f95-0532a61d178a/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9c96e9fcd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
