@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="/static/syle.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TaskManager</title>
+
+</head>
+
+<body style="text-align:center;">
+	<img class="logo" src="/static/logo.png" style="height:10%;width:20%"/>
+	<form id="registerUserForm" action="/login"
+		method="POST" align="center" style="margin-top: 2%;text-align : center;">
+
+		<table align="center" class="container2">
+			<tr>
+				<td><label class="h3" for="api_id">API_ID</label>
+				<td><input class="input" id=api_id type="text"
+					placeholder="api_id"
+					name="api_id"
+					required /></td>
+			</tr>
+			<tr>
+				<td><label class="h3" for="api_hash">API_HASH</label></td>
+				<td><input class="input" id="api_hash" type="password" placeholder="api_hash" name="api_hash"/></td>
+			</tr>
+		</table>
+		<button type="submit" class="button" align="center"
+			style="margin-top: 2%;">INIZIA</button>
+	</form>
+</body>
+</html>
